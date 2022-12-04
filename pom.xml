@@ -10,7 +10,6 @@
 
     <properties>
         <java.version>11</java.version>
-        <selenium.version>6.8.0</selenium.version>
         <junit.version>5.9.1</junit.version>
         <lombok.version>1.18.24</lombok.version>
         <webdrivermanager.version>5.3.0</webdrivermanager.version>
@@ -35,7 +34,6 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
@@ -90,7 +88,6 @@
             <version>${okhttp3.version}</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>
